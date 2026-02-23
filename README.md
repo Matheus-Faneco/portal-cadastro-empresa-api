@@ -1,6 +1,7 @@
 ## Portal de serviço ST [Cadastro de Empresa] (Backend)
 
 Os diagramas de caso de uso, classe e atividade, estão na pasta diagramas.
+Os diagramas foram desenvolvidos através do site https://www.plantuml.com.
 ## Diagramas
 
 ![Caso de Uso](diagramas/Diagrama_atividade.png)
