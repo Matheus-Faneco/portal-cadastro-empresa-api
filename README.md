@@ -12,10 +12,16 @@ Tecnologias que foram utilizadas
 
 O Banco de dados utilizado foi o PostgreSQL.
 
+## Endpoints
+*  `/api/empresas` - Cadastrar empresa
+*  `/api/empresas/{id}/aprovar` - Aprovar empresa
+*  `/api/empresas/{id}/reprovar` - Reprovar empresa
+*  `/api/empresas` - Listar empresas
+*  `/api/empresas/pendentes` - Listar empresas pendentes
+*  `/api/documentos/{empresaId}` - Upload de documento
+
 ---
 ## Estrutura do Projeto
-
-
 
 Em `EmpresaController` se encontram os endpoints de cadastrar, aprovar, reprovar e listar empresas,
 tanto o listamento de todas quanto apenas as pendentes. Em `DocumentoController` está o endpoint
