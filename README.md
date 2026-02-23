@@ -1,6 +1,13 @@
 ## Portal de serviço ST [Cadastro de Empresa] (Backend)
 
-API REST desenvolvida em Java com SpringBoot para o Portal ST de Cadastro de Empresas.
+Os diagramas de caso de uso, classe e atividade, estão na pasta diagramas.
+## Diagramas
+
+![Caso de Uso](diagramas/Diagrama_atividade.png)
+![Classes](diagramas/diagrama_classes.png)
+![Atividade](diagramas/Diagrama_atividade.png)
+
+## API REST desenvolvida em Java com SpringBoot para o Portal ST de Cadastro de Empresas.
 
 Tecnologias que foram utilizadas
 * Java 21
