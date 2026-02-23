@@ -11,8 +11,15 @@ Tecnologias que foram utilizadas
 * Maven
 
 O Banco de dados utilizado foi o PostgreSQL.
+As informações utilizadas para criação do BD
+* Database: cadastrodb
+* Username: cadastrouser
+* Password: 1234
+- As informações de conexão do BD estão em src/main/resources/application.properties.
 
-As informações de conexão do BD estão em src/main/resources/application.properties.
+Para rodar a aplicação
+`./mvnw spring-boot:run`
+
 
 ## Endpoints
 *  `/api/empresas` - Cadastrar empresa
