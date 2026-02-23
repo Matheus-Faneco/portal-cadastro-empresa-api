@@ -1,5 +1,6 @@
 package br.com.empresa.portal_cadastro_empresa.controller;
 
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -17,6 +18,7 @@ public class DocumentoController {
 
     private static final String PASTA = "uploads/";
 
+    @Operation(summary = "Upload de documento")
     @PostMapping("/{empresaId}")
     public ResponseEntity<String> upload(
             @PathVariable Long empresaId,
