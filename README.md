@@ -12,6 +12,8 @@ Tecnologias que foram utilizadas
 
 O Banco de dados utilizado foi o PostgreSQL.
 
+As informações de conexão do BD estão em src/main/resources/application.properties.
+
 ## Endpoints
 *  `/api/empresas` - Cadastrar empresa
 *  `/api/empresas/{id}/aprovar` - Aprovar empresa
@@ -19,6 +21,9 @@ O Banco de dados utilizado foi o PostgreSQL.
 *  `/api/empresas` - Listar empresas
 *  `/api/empresas/pendentes` - Listar empresas pendentes
 *  `/api/documentos/{empresaId}` - Upload de documento
+
+Swagger foi utilizado para documentação das APIs.
+http://localhost:8080/swagger-ui/index.html
 
 ---
 ## Estrutura do Projeto
